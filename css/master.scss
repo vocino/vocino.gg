@@ -1,18 +1,26 @@
 ---
 ---
 
-html {
-  background: url("/images/background.jpg") no-repeat left center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+html, body {
+  background: black;
+  height: 100%;
+  width: 100%;
 }
 
-body {
-  color: #eee;
+
+#twitch-embed-video {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
 }
 
-#hero {
-  margin-top: 200px;
+#twitch-embed-chat {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
