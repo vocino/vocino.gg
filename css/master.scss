@@ -3,13 +3,14 @@
 
 html, body {
   background: black;
-  height: 100%;
-  width: 100%;
 }
 
+.nav-wrapper {
+  background-color: #3cf;
+}
 
 #twitch-embed-video {
-  height: 100%;
+  height: auto;
   width: 100%;
   position: absolute;
   top: 0;
