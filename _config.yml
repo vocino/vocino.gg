@@ -1,3 +1,9 @@
+# Game Collections
+collections:
+  the-first-descendant:
+    output: true
+    permalink: /the-first-descendant/:title/
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
